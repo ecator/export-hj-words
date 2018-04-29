@@ -13,10 +13,11 @@
 (function() {
     'use strict';
     // 获取log函数
+    let log;
     if (typeof GM_log == "function"){
-        let log = GM_log; 
+        log = GM_log;
     }else{
-        let log = console.log;
+        log = console.log;
     }
     // 获取xmlHttp对象
     let xmlHttp = null;
