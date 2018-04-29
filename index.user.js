@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name         Export HJ Words
 // @namespace    http://blog.nocode.site/
-// @version      0.1
+// @version      0.2
+// @downloadURL  https://github.com/ecator/export-hj-words/raw/master/index.user.js
 // @description  从沪江生词本导出单词
 // @author       Ecat
 // @match        https://www.hjdict.com/scb
