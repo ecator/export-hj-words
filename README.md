@@ -9,7 +9,7 @@
 ```
 javascript:(function(){var tm_s=document.createElement("script");tm_s.src="https://ecator.github.io/export-hj-words/index.user.js";document.body.appendChild(tm_s)})();
 ```
-只需要在沪江词本页面点击这个书签即可出现**导出**按钮
+只需要在沪江生词本页面点击这个书签即可出现**导出**按钮
 
 ![点击书签出现导出按钮](https://ecator.github.io/export-hj-words/img/tutorial-js-2.jpg)
 
