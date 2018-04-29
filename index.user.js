@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Export HJ Words
 // @namespace    http://blog.nocode.site/
-// @version      0.2
+// @version      0.3
 // @downloadURL  https://github.com/ecator/export-hj-words/raw/master/index.user.js
 // @description  从沪江生词本导出单词
 // @author       Ecat
@@ -13,7 +13,11 @@
 (function() {
     'use strict';
     // 获取log函数
-    let log = GM_log || console.log;
+    if (typeof GM_log == "function"){
+        let log = GM_log; 
+    }else{
+        let log = console.log;
+    }
     // 获取xmlHttp对象
     let xmlHttp = null;
     if (window.XMLHttpRequest)
