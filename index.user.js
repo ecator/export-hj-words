@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Export HJ Words
 // @namespace    http://blog.nocode.site/
-// @version      0.4
+// @version      0.5
 // @description  从沪江生词本导出单词
 // @author       Ecat
-// @match        https://www.hjdict.com/scb
-// @match        https://dict.hjenglish.com/scb
+// @match        http*://www.hjdict.com/scb
+// @match        http*://dict.hjenglish.com/scb
 // @connect      www.hjdict.com
 // @grant        GM_log
 // ==/UserScript==
